@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #1E90FF, #87CEEB);
+    font: 400 14px Playfair, sans-serif;
+    color: #FFF;
+    font-size: 22px;
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    padding-top: 2rem;
+    color: #FFF;
+}
+    
+#section-counter{
+    display: flexbox;
+    padding: 1rem;
+}
+
+#counter{
+    padding: 1rem;
+}
+
+button{
+    border-radius: 50%;
+    border: none;
+}
+
+#button-plus{
+    background-color:#00FF7F;
+}
+
+#button-less{
+    background-color:#FF6347;
+}
