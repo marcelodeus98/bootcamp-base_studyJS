@@ -17,4 +17,4 @@ let sum = ( number_one, number_two) => {
 
   }
 
-  sum()
+  sum();
