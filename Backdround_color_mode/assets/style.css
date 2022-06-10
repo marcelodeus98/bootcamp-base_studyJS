@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font: 400 14px Playfair, sans-serif;
+    color: #000;
+    font-size: 22px;
+    background-color: #F0F8FF;
+}
+
+div{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: max-content;
+    padding: 1rem;
+    border-radius: 8px 8px 8px 8px;
+    color: #F0F8FF;
+    background-color: #000;
+    border:#F0F8FF;
+}
+
+.dark-mode{
+    background-color: #000;
+    color: #F0F8FF;
+}
+ .dark-mode button{
+    background-color: #F0F8FF;
+    color: #000;
+ }
+
